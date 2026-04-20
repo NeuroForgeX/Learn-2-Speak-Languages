@@ -1,41 +1,60 @@
 package com.forge.learn
 
 import android.os.Bundle
+import android.os.Handler
+import android.os.Looper
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
 import androidx.activity.enableEdgeToEdge
 import androidx.compose.foundation.layout.fillMaxSize
-import androidx.compose.foundation.layout.padding
 import androidx.compose.material3.Scaffold
-import androidx.compose.material3.Text
-import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
-import androidx.compose.ui.tooling.preview.Preview
+import androidx.core.splashscreen.SplashScreen.Companion.installSplashScreen
+import com.forge.learn.navigation.AppNavigation
 import com.forge.learn.ui.theme.Learn2SpeakANewLanguageTheme
 
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
+
+        // Install splash screen
+        val splashScreen = installSplashScreen()
+
+        // Keep splash screen for at least 2 seconds
+        splashScreen.setKeepOnScreenCondition { true }
+
+        // Load resources while splash screen is displayed
+        loadResources()
+
+        // Hide splash screen after 2 seconds
+        Handler(Looper.getMainLooper()).postDelayed({
+                                                        splashScreen.setKeepOnScreenCondition { false }
+                                                    }, 1000)
+
         enableEdgeToEdge()
         setContent {
             Learn2SpeakANewLanguageTheme {
                 Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding ->
-                    Greeting(name = "Android", modifier = Modifier.padding(innerPadding))
+                    AppNavigation(innerPadding)
                 }
             }
         }
+
     }
-}
 
-@Composable
-fun Greeting(name: String, modifier: Modifier = Modifier) {
-    Text(text = "Hello $name!", modifier = modifier)
-}
+    private fun loadResources() {
+        initTranslator()
+        loadData(this)
+        loadPreferences(this)
+    }
 
-@Preview(showBackground = true)
-@Composable
-fun GreetingPreview() {
-    Learn2SpeakANewLanguageTheme {
-        Greeting("Android")
+    override fun onPause() {
+        super.onPause()
+        savePreferences(this)
+    }
+
+    override fun onStop() {
+        super.onStop()
+        savePreferences(this)
     }
 }
