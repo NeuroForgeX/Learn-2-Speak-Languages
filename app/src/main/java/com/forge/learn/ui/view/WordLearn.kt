@@ -10,14 +10,14 @@ import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.size
 import androidx.compose.foundation.layout.width
-import androidx.compose.foundation.lazy.LazyColumn
-import androidx.compose.foundation.lazy.items
-import androidx.compose.foundation.lazy.rememberLazyListState
+import androidx.compose.foundation.pager.HorizontalPager
+import androidx.compose.foundation.pager.rememberPagerState
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.automirrored.filled.ArrowBack
 import androidx.compose.material.icons.automirrored.filled.KeyboardArrowLeft
 import androidx.compose.material.icons.automirrored.filled.KeyboardArrowRight
 import androidx.compose.material.icons.filled.Favorite
+import androidx.compose.material.icons.filled.Refresh
 import androidx.compose.material3.Icon
 import androidx.compose.material3.IconButton
 import androidx.compose.material3.LinearProgressIndicator
@@ -25,8 +25,11 @@ import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.ProgressIndicatorDefaults
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
+import androidx.compose.runtime.getValue
+import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.remember
 import androidx.compose.runtime.rememberCoroutineScope
+import androidx.compose.runtime.setValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
@@ -40,13 +43,15 @@ import com.forge.learn.markValueErrored
 import com.forge.learn.ui.block.QuestionCard
 import com.forge.learn.valuesMarkedForFuture
 import kotlinx.coroutines.launch
+import kotlin.random.Random
 
 @Composable
 fun WordLearnScreen(navController: NavController, innerPadding: PaddingValues, questions: List<Question>) {
     // Sample questions - replace with actual data
-    val lazyListState = rememberLazyListState()
     val coroutineScope = rememberCoroutineScope()
     val markedForFuture = remember { valuesMarkedForFuture }
+    var shuffledQuestions by remember { mutableStateOf(questions) }
+    val pagerState = rememberPagerState(pageCount = { shuffledQuestions.size })
 
     Column(modifier = Modifier
             .fillMaxSize()
@@ -63,6 +68,14 @@ fun WordLearnScreen(navController: NavController, innerPadding: PaddingValues, q
 
             // Right side icons
             Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(8.dp)) {
+                // Reload/Shuffle icon
+                IconButton(onClick = {
+                    shuffledQuestions = shuffledQuestions.take(pagerState.currentPage) + shuffledQuestions.subList(pagerState.currentPage, pagerState.pageCount)
+                            .shuffled(Random(System.currentTimeMillis()))
+                }) {
+                    Icon(imageVector = Icons.Default.Refresh, contentDescription = "Shuffle Questions", tint = MaterialTheme.colorScheme.onSurface, modifier = Modifier.size(24.dp))
+                }
+
                 // Love/Favorite icon with count
                 Row(verticalAlignment = Alignment.CenterVertically) {
                     IconButton(onClick = { /* Handle favorite action */ }) {
@@ -75,7 +88,7 @@ fun WordLearnScreen(navController: NavController, innerPadding: PaddingValues, q
         }
 
         // Question progress indicator
-        Text(text = "Question ${lazyListState.firstVisibleItemIndex + 1} of ${questions.size}",
+        Text(text = "Question ${pagerState.currentPage + 1} of ${shuffledQuestions.size}",
              fontSize = 14.sp,
              color = MaterialTheme.colorScheme.onSurfaceVariant,
              modifier = Modifier
@@ -84,7 +97,7 @@ fun WordLearnScreen(navController: NavController, innerPadding: PaddingValues, q
 
         // Linear progress indicator
         LinearProgressIndicator(
-            progress = { (lazyListState.firstVisibleItemIndex + 1).toFloat() / questions.size },
+            progress = { (pagerState.currentPage + 1).toFloat() / shuffledQuestions.size },
             modifier = Modifier
                     .fillMaxWidth()
                     .padding(horizontal = 16.dp, vertical = 24.dp),
@@ -94,20 +107,16 @@ fun WordLearnScreen(navController: NavController, innerPadding: PaddingValues, q
                                )
 
         // Question Cards
-        LazyColumn(state = lazyListState,
-                   modifier = Modifier
-                           .fillMaxWidth()
-                           .weight(1f),
-                   contentPadding = PaddingValues(start = 0.dp, end = 0.dp, top = 0.dp, bottom = 20.dp),
-                   userScrollEnabled = false) {
-            items(items = questions, key = { it.id }) { question ->
-                QuestionCard(question = question, onOptionSelected = { option ->
-                    // Handle option selection
-                    if (option != question.answer) {
-                        markValueErrored(question.id)
-                    }
-                })
-            }
+        HorizontalPager(state = pagerState, modifier = Modifier
+                .fillMaxWidth()
+                .weight(1f)) { page ->
+            val question = shuffledQuestions[page]
+            QuestionCard(question = question, onOptionSelected = { option ->
+                // Handle option selection
+                if (option != question.answer) {
+                    markValueErrored(question.id)
+                }
+            })
         }
 
         // Navigation icons
@@ -117,15 +126,15 @@ fun WordLearnScreen(navController: NavController, innerPadding: PaddingValues, q
 
             // Left arrow - scroll to previous question
             IconButton(onClick = {
-                if (lazyListState.firstVisibleItemIndex > 0) {
+                if (pagerState.currentPage > 0) {
                     coroutineScope.launch {
-                        lazyListState.animateScrollToItem(index = lazyListState.firstVisibleItemIndex - 1)
+                        pagerState.animateScrollToPage(pagerState.currentPage - 1)
                     }
                 }
-            }, enabled = lazyListState.firstVisibleItemIndex > 0) {
+            }, enabled = pagerState.currentPage > 0) {
                 Icon(imageVector = Icons.AutoMirrored.Filled.KeyboardArrowLeft,
                      contentDescription = "Previous Question",
-                     tint = if (lazyListState.firstVisibleItemIndex > 0) MaterialTheme.colorScheme.primary else MaterialTheme.colorScheme.onSurfaceVariant,
+                     tint = if (pagerState.currentPage > 0) MaterialTheme.colorScheme.primary else MaterialTheme.colorScheme.onSurfaceVariant,
                      modifier = Modifier.size(32.dp))
             }
 
@@ -134,12 +143,12 @@ fun WordLearnScreen(navController: NavController, innerPadding: PaddingValues, q
             // Right arrow - scroll to next question
             IconButton(onClick = {
                 coroutineScope.launch {
-                    lazyListState.animateScrollToItem(index = lazyListState.firstVisibleItemIndex + 1)
+                    pagerState.animateScrollToPage(pagerState.currentPage + 1)
                 }
-            }, enabled = lazyListState.firstVisibleItemIndex < questions.size - 1) {
+            }, enabled = pagerState.currentPage < shuffledQuestions.size - 1) {
                 Icon(imageVector = Icons.AutoMirrored.Filled.KeyboardArrowRight,
                      contentDescription = "Next Question",
-                     tint = if (lazyListState.firstVisibleItemIndex < questions.size - 1) MaterialTheme.colorScheme.primary else MaterialTheme.colorScheme.onSurfaceVariant,
+                     tint = if (pagerState.currentPage < shuffledQuestions.size - 1) MaterialTheme.colorScheme.primary else MaterialTheme.colorScheme.onSurfaceVariant,
                      modifier = Modifier.size(32.dp))
             }
         }

@@ -54,6 +54,7 @@ dependencies {
     implementation(libs.androidx.compose.material.icons.extended)
     implementation(libs.androidx.activity.compose)
     implementation(libs.androidx.navigation.compose)
+    implementation(libs.androidx.foundation)
 
     // Splash Screen API
     implementation(libs.androidx.core.splashscreen)
