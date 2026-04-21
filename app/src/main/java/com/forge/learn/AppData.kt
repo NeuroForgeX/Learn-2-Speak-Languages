@@ -3,7 +3,7 @@ package com.forge.learn
 import android.content.Context
 import com.forge.learn.data.Question
 
-private val questions = ArrayList<Question>(500)
+private lateinit var questions: List<Question>
 
 fun getQuestions(): List<Question> {
     return questions
@@ -20,14 +20,14 @@ fun getQuestions(ids: Collection<Int>): List<Question> {
 fun loadData(context: Context) {
 
     val answers = ArrayList<String>()
-
+    val questionsList = ArrayList<Question>()
     try {
         context.assets.open("Questions.csv").bufferedReader().useLines { lines ->
             lines.forEach { line ->
                 val tokens = line.split(";")
                 val answer = tokens[2]
                 val question = Question(id = tokens[0].toInt(), question = tokens[1], answer = answer, defaultAnswer = answer)
-                questions.add(question)
+                questionsList.add(question)
                 answers.add(answer)
             }
         }
@@ -35,8 +35,7 @@ fun loadData(context: Context) {
         e.printStackTrace()
     }
 
-    val result = ArrayList<Question>()
-    for (question in questions) {
+    for (question in questionsList) {
         val wrong = answers.shuffled().take(4).filter { it != question.defaultAnswer }.take(3)
         question.falseOptions.addAll(wrong)
 //        translateGermanToEnglish(question.defaultAnswer, onResult = { result ->
@@ -44,7 +43,7 @@ fun loadData(context: Context) {
 //                question.answer = result
 //            }
 //        })
-        result.add(question)
     }
-    questions.shuffled()
+
+    questions = ArrayList<Question>(questionsList.shuffled())
 }

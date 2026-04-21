@@ -160,6 +160,5 @@ fun sampleQuestions(): List<Question> {
 @Composable
 @Preview
 fun WordLearnPreview() {
-
     WordLearnScreen(navController = rememberNavController(), questions = sampleQuestions(), innerPadding = PaddingValues())
 }

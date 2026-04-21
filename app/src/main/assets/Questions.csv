@@ -1,400 +1,400 @@
-1;abnehmen;decrease
-2;die Abnahme;decrease/acceptance
-3;abhängen von;depend on
-4;die Abhängigkeit;dependency
-5;ablehnen;reject
-6;die Ablehnung;rejection
-7;absolut;absolute
-8;die Absicht;intention
-9;abschaffen;abolish
-10;der Abschluss;completion/degree
-11;absichtlich;intentional
-12;die Abweichung;deviation
-13;achten auf;pay attention to
-14;ähnlich;similar
-15;allerdings;however
-16;allmählich;gradually
-17;allseits;on all sides
-18;alternativ;alternative
-19;die Alternative;alternative
-20;analysieren;analyze
-21;anerkennen;recognize
-22;die Anerkennung;recognition
-23;angeblich;alleged
-24;angemessen;appropriate
-25;die Angemessenheit;appropriateness
-26;angreifen;attack
-27;der Angriff;attack
-28;ankündigen;announce
-29;die Ankündigung;announcement
-30;annehmen;assume/accept
-31;die Annahme;assumption
-32;anpassen;adapt
-33;die Anpassung;adaptation
-34;anscheinend;apparently
-35;ansonsten;otherwise
-36;anspruchsvoll;demanding
-37;der Anspruch;claim
-38;anstrengend;exhausting
-39;die Anstrengung;effort
-40;ansteigen;increase
-41;der Anstieg;increase
-42;anwenden;apply
-43;die Anwendung;application
-44;anziehen;attract
-45;die Anziehung;attraction
-46;arbeiten an;work on
-47;die Arbeitslosigkeit;unemployment
-48;der Aufwand;effort
-49;ausbauen;expand
-50;der Ausbau;expansion
-51;ausdrücken;express
-52;der Ausdruck;expression
-53;ausfallen;fail/cancel
-54;der Ausfall;loss/failure
-55;ausführen;carry out
-56;die Ausführung;execution
-57;ausgehen von;assume from
-58;die Auswirkung;effect
-59;ausreichend;sufficient
-60;die Ausnahme;exception
-61;ausschließen;exclude
-62;der Ausschluss;exclusion
-63;ausschließlich;exclusively
-64;aussprechen;pronounce/express
-65;die Aussage;statement
-66;austauschen;exchange
-67;der Austausch;exchange
-68;auswählen;select
-69;die Auswahl;selection
-70;auswirken,sich auswirken;have an effect
-71;beachten;observe
-72;die Bedeutung;meaning
-73;bedeutsam;significant
-74;beeinflussen;influence
-75;der Einfluss;influence
-76;beenden;finish
-77;begegnen;encounter
-78;begeistern;enthuse
-79;begrenzt;limited
-80;der Begriff;term
-81;begründen;justify
-82;die Begründung;justification
-83;behandeln;treat/deal with
-84;die Behandlung;treatment
-85;behaupten;claim
-86;die Behauptung;claim
-87;behindern;hinder
-88;die Behinderung;disability/obstruction
-89;beibehalten;retain
-90;beispielsweise;for example
-91;beitragen;contribute
-92;der Beitrag;contribution
-93;bekanntlich;as is known
-94;belasten;burden
-95;die Belastung;burden
-96;belegen;prove/occupy
-97;beobachten;observe
-98;die Beobachtung;observation
-99;berücksichtigen;consider
-100;die Berücksichtigung;consideration
-101;berichten;report
-102;der Bericht;report
-103;beruhen auf;be based on
-104;beruflich;professional
-105;beschäftigen;employ
-106;die Beschäftigung;employment
-107;beschließen;decide
-108;der Beschluss;decision
-109;beschreiben;describe
-110;die Beschreibung;description
-111;beschränken;limit
-112;die Beschränkung;restriction
-113;besitzen;possess
-114;der Besitz;possession
-115;bestätigen;confirm
-116;die Bestätigung;confirmation
-117;bestehen aus;consist of
-118;bestimmen;determine
-119;die Bestimmung;determination
-120;beteiligen,sich beteiligen;participate
-121;die Beteiligung;participation
-122;betonen;emphasize
-123;die Betonung;emphasis
-124;betrachten;consider
-125;die Betrachtung;consideration
-126;betreffen;concern/affect
-127;der Betrag;amount
-128;beurteilen;assess
-129;die Beurteilung;assessment
-130;bevorzugen;prefer
-131;die Bevorzugung;preference
-132;beweisen;prove
-133;der Beweis;proof
-134;beziehen sich auf;refer to
-135;die Beziehung;relationship
-136;bilden;form
-137;die Bildung;education
-138;biologisch;biological
-139;die Branche;industry
-140;brauchen;need
-141;die Bremse;brake
-142;charakteristisch;characteristic
-143;der Charakter;character
-144;chemisch;chemical
-145;die Chemie;chemistry
-146;die Chance;chance
-147;chancenlos;hopeless
-148;der Chef;boss
-149;die Debatte;debate
-150;debattieren;debate
-151;definieren;define
-152;die Definition;definition
-153;demnach;accordingly
-154;demzufolge;consequently
-155;denken an;think of
-156;der Denkprozess;thinking process
-157;dennoch;nevertheless
-158;der Bereich;area
-159;bereit;ready
-160;die Bereitschaft;willingness
-161;berühmt;famous
-162;berücksichtigen;consider
-163;der Bericht;report
-164;berühren;touch
-165;der Beruf;profession
-166;berufstätig;employed
-167;beschädigen;damage
-168;der Schaden;damage
-169;beschleunigen;accelerate
-170;die Beschleunigung;acceleration
-171;beschreiben;describe
-172;beschränken auf;limit to
-173;beschweren,sich beschweren;complain
-174;die Beschwerde;complaint
-175;beständig;constant
-176;die Beständigkeit;stability
-177;bestimmen;determine
-178;die Bestimmung;determination
-179;bewahren;preserve
-180;die Bewahrung;preservation
-181;bewerten;evaluate
-182;die Bewertung;evaluation
-183;bewirken;cause/effect
-184;bewusst;conscious
-185;das Bewusstsein;awareness
-186;bezeichnen;designate
-187;die Bezeichnung;designation
-188;bieten;offer
-189;der Blick;view
-190;blockieren;block
-191;die Blockade;blockade
-192;die Botschaft;message
-193;breit;broad
-194;die Breite;width
-195;durchführen;carry out
-196;die Durchführung;implementation
-197;durchsetzen;enforce
-198;die Durchsetzung;enforcement
-199;durchschnittlich;average
-200;der Durchschnitt;average
-201;durchaus;absolutely
-202;ebenfalls;likewise
-203;effektiv;effective
-204;die Effektivität;effectiveness
-205;effizient;efficient
-206;die Effizienz;efficiency
-207;ehrlich;honest
-208;die Ehrlichkeit;honesty
-209;eignen,sich eignen;be suitable
-210;die Eignung;suitability
-211;einbeziehen;include
-212;der Einblick;insight
-213;eindeutig;clear
-214;die Eindeutigkeit;clarity
-215;einfach;simple
-216;der Einfluss;influence
-217;einführen;introduce
-218;die Einführung;introduction
-219;eingehen auf;respond to
-220;einhalten;comply with
-221;die Einhaltung;compliance
-222;einheitlich;uniform
-223;die Einheit;unity
-224;einkommen;income
-225;das Einkommen;income
-226;einleiten;initiate
-227;die Einleitung;introduction
-228;einnehmen;take in
-229;die Einnahme;revenue
-230;einschätzen;estimate
-231;die Einschätzung;assessment
-232;einschränken;restrict
-233;die Einschränkung;restriction
-234;einsetzen;deploy
-235;der Einsatz;commitment
-236;einstellen;hire/adjust
-237;die Einstellung;attitude/hiring
-238;eintragen;enter/register
-239;der Eintrag;entry
-240;einwandfrei;flawless
-241;einwirken auf;have an effect on
-242;die Einwirkung;effect/impact
-243;einzigartig;unique
-244;die Einzigartigkeit;uniqueness
-245;empfehlen;recommend
-246;die Empfehlung;recommendation
-247;empfinden;feel/perceive
-248;die Empfindung;sensation
-249;ermöglichen;enable
-250;die Ermöglichung;enabling
-251;erfahren;experience/learn
-252;die Erfahrung;experience
-253;erfolgen;occur
-254;der Erfolg;success
-255;erfolgreich;successful
-256;erfordern;require
-257;die Erforderung;requirement
-258;erfüllen;fulfill
-259;die Erfüllung;fulfillment
-260;ergeben,ergeben sich;result
-261;das Ergebnis;result
-262;erhalten;receive
-263;der Erhalt;preservation
-264;erheben;raise
-265;die Erhebung;survey/raising
-266;erkennen;recognize
-267;die Erkenntnis;insight
-268;erklären;explain
-269;die Erklärung;explanation
-270;erlauben;allow
-271;die Erlaubnis;permission
-272;erleben;experience
-273;das Erlebnis;experience/event
-274;ermitteln;determine/investigate
-275;die Ermittlung;investigation
-276;erreichen;achieve
-277;die Erreichung;achievement
-278;erscheinen;appear
-279;die Erscheinung;appearance
-280;ersetzen;replace
-281;der Ersatz;replacement
-282;erstellen;create
-283;die Erstellung;creation
-284;ertragen;endure
-285;der Ertrag;yield
-286;erwähnen;mention
-287;die Erwähnung;mention
-288;erweitern;expand
-289;die Erweiterung;expansion
-290;erwerben;acquire
-291;der Erwerb;acquisition
-292;erzeugen;generate
-293;die Erzeugung;production
-294;erzielen;achieve
-295;das Erzielen;achievement
-296;essenziell;essential
-297;die Essenz;essence
-298;etablieren;establish
-299;die Etablierung;establishment
-300;ethisch;ethical
-301;die Ethik;ethics
-302;fähig;capable
-303;die Fähigkeit;ability
-304;fair;fair
-305;die Fairness;fairness
-306;fördern;promote
-307;die Förderung;promotion
-308;fordern;demand
-309;die Forderung;demand
-310;fortsetzen;continue
-311;die Fortsetzung;continuation
-312;fortschreiten;progress
-313;der Fortschritt;progress
-314;freisetzen;release
-315;die Freisetzung;release
-316;funktionieren;function
-317;die Funktion;function
-318;garantieren;guarantee
-319;die Garantie;guarantee
-320;gebrauchen;use
-321;der Gebrauch;use
-322;geeignet;suitable
-323;die Gelegenheit;opportunity
-324;gegenwärtig;current
-325;die Gegenwart;present
-326;gelangen;reach
-327;gelten;be valid
-328;gemeinsam;common/together
-329;die Gemeinschaft;community
-330;generell;general
-331;die Generation;generation
-332;genügen;suffice
-333;genau;exact
-334;die Genauigkeit;accuracy
-335;geraten;get into
-336;gesamt;overall
-337;die Gesamtheit;totality
-338;gestalten;shape/design
-339;die Gestaltung;design
-340;gewinnen;gain/win
-341;der Gewinn;profit
-342;gewährleisten;ensure
-343;die Gewährleistung;guarantee
-344;gewichten;weight
-345;das Gewicht;weight
-346;gewohnt;accustomed
-347;gleichzeitig;simultaneously
-348;die Gleichzeitigkeit;simultaneity
-349;gründen;found
-350;die Gründung;foundation
-351;grundsätzlich;fundamental
-352;der Grund;reason
-353;handeln;act
-354;die Handlung;action
-355;herausfordern;challenge
-356;die Herausforderung;challenge
-357;herstellen;produce
-358;die Herstellung;production
-359;hervorheben;emphasize
-360;hinsichtlich;regarding
-361;hinterfragen;question
-362;die Hinterfragung;questioning
-363;hinweisen auf;point out
-364;der Hinweis;indication
-365;identisch;identical
-366;die Identität;identity
-367;ignorieren;ignore
-368;die Ignoranz;ignorance
-369;implementieren;implement
-370;die Implementierung;implementation
-371;individuell;individual
-372;die Individualität;individuality
-373;informieren;inform
-374;die Information;information
-375;inhaltlich;content-related
-376;der Inhalt;content
-377;innovativ;innovative
-378;die Innovation;innovation
-379;integrieren;integrate
-380;die Integration;integration
-381;intensiv;intensive
-382;die Intensität;intensity
-383;interessieren,sich interessieren;be interested
-384;das Interesse;interest
-385;interpretieren;interpret
-386;die Interpretation;interpretation
-387;investieren;invest
-388;die Investition;investment
-389;irgendwie;somehow
-390;jedoch;however
-391;kaum;hardly
-392;klären;clarify
-393;die Klärung;clarification
-394;komplex;complex
-395;die Komplexität;complexity
-396;konkret;concrete
-397;die Konkurrenz;competition
-398;konsequent;consistent
-399;die Konsequenz;consequence
-400;kontinuierlich;continuous
+1;abnehmen;decrease, reduce, lose weight
+2;die Abnahme;decrease, acceptance, reduction
+3;abhängen von;depend on, rely on, hang on
+4;die Abhängigkeit;dependency, dependence, addiction
+5;ablehnen;reject, decline, refuse
+6;die Ablehnung;rejection, refusal, declination
+7;absolut;absolute, complete, total
+8;die Absicht;intention, purpose, aim
+9;abschaffen;abolish, eliminate, remove
+10;der Abschluss;completion, degree, conclusion
+11;absichtlich;intentional, deliberate, purposeful
+12;die Abweichung;deviation, divergence, variance
+13;achten auf;pay attention to, heed, watch
+14;ähnlich;similar, alike, comparable
+15;allerdings;however, nevertheless, though
+16;allmählich;gradually, progressively, slowly
+17;allseits;on all sides, from all directions
+18;alternativ;alternative, alternate, other
+19;die Alternative;alternative, option, choice
+20;analysieren;analyze, examine, investigate
+21;anerkennen;recognize, acknowledge, accept
+22;die Anerkennung;recognition, acknowledgment, acceptance
+23;angeblich;alleged, so-called, supposed
+24;angemessen;appropriate, suitable, proper
+25;die Angemessenheit;appropriateness, suitability, properness
+26;angreifen;attack, assault, strike
+27;der Angriff;attack, assault, strike
+28;ankündigen;announce, declare, proclaim
+29;die Ankündigung;announcement, declaration, proclamation
+30;annehmen;assume, accept, adopt
+31;die Annahme;assumption, acceptance, adoption
+32;anpassen;adapt, adjust, modify
+33;die Anpassung;adaptation, adjustment, modification
+34;anscheinend;apparently, seemingly, ostensibly
+35;ansonsten;otherwise, else, or else
+36;anspruchsvoll;demanding, challenging, exacting
+37;der Anspruch;claim, demand, right
+38;anstrengend;exhausting, tiring, draining
+39;die Anstrengung;effort, exertion, strain
+40;ansteigen;increase, rise, grow
+41;der Anstieg;increase, rise, growth
+42;anwenden;apply, use, utilize
+43;die Anwendung;application, use, utilization
+44;anziehen;attract, draw, appeal
+45;die Anziehung;attraction, appeal, draw
+46;arbeiten an;work on, work at, operate on
+47;die Arbeitslosigkeit;unemployment, joblessness
+48;der Aufwand;effort, expenditure, cost
+49;ausbauen;expand, extend, enlarge
+50;der Ausbau;expansion, extension, enlargement
+51;ausdrücken;express, voice, articulate
+52;der Ausdruck;expression, statement, voice
+53;ausfallen;fail, cancel, fall through
+54;der Ausfall;loss, failure, cancellation
+55;ausführen;carry out, execute, perform
+56;die Ausführung;execution, implementation, performance
+57;ausgehen von;assume from, presume from
+58;die Auswirkung;effect, impact, consequence
+59;ausreichend;sufficient, adequate, enough
+60;die Ausnahme;exception, exclusion, anomaly
+61;ausschließen;exclude, eliminate, rule out
+62;der Ausschluss;exclusion, elimination, omission
+63;ausschließlich;exclusively, solely, only
+64;aussprechen;pronounce, express, utter
+65;die Aussage;statement, utterance, declaration
+66;austauschen;exchange, swap, interchange
+67;der Austausch;exchange, swap, interchange
+68;auswählen;select, choose, pick
+69;die Auswahl;selection, choice, pick
+70;auswirken,sich auswirken;have an effect, affect, influence
+71;beachten;observe, notice, heed
+72;die Bedeutung;meaning, significance, sense
+73;bedeutsam;significant, meaningful, important
+74;beeinflussen;influence, affect, impact
+75;der Einfluss;influence, impact, effect
+76;beenden;finish, end, complete
+77;begegnen;encounter, meet, come across
+78;begeistern;enthuse, excite, inspire
+79;begrenzt;limited, restricted, finite
+80;der Begriff;term, concept, notion
+81;begründen;justify, explain, reason
+82;die Begründung;justification, explanation, reasoning
+83;behandeln;treat, deal with, handle
+84;die Behandlung;treatment, handling, management
+85;behaupten;claim, assert, allege
+86;die Behauptung;claim, assertion, allegation
+87;behindern;hinder, obstruct, impede
+88;die Behinderung;disability, obstruction, impediment
+89;beibehalten;retain, keep, maintain
+90;beispielsweise;for example, for instance, such as
+91;beitragen;contribute, add, provide
+92;der Beitrag;contribution, donation, input
+93;bekanntlich;as is known, as we know
+94;belasten;burden, load, weigh down
+95;die Belastung;burden, load, strain
+96;belegen;prove, occupy, demonstrate
+97;beobachten;observe, watch, monitor
+98;die Beobachtung;observation, watching, monitoring
+99;berücksichtigen;consider, take into account, regard
+100;die Berücksichtigung;consideration, taking into account, regard
+101;berichten;report, inform, tell
+102;der Bericht;report, account, information
+103;beruhen auf;be based on, rest on, rely on
+104;beruflich;professional, occupational, work-related
+105;beschäftigen;employ, engage, occupy
+106;die Beschäftigung;employment, occupation, engagement
+107;beschließen;decide, determine, resolve
+108;der Beschluss;decision, determination, resolution
+109;beschreiben;describe, depict, portray
+110;die Beschreibung;description, depiction, portrayal
+111;beschränken;limit, restrict, confine
+112;die Beschränkung;restriction, limitation, constraint
+113;besitzen;possess, own, have
+114;der Besitz;possession, ownership, property
+115;bestätigen;confirm, verify, validate
+116;die Bestätigung;confirmation, verification, validation
+117;bestehen aus;consist of, be composed of, comprise
+118;bestimmen;determine, decide, establish
+119;die Bestimmung;determination, decision, establishment
+120;beteiligen,sich beteiligen;participate, take part, engage
+121;die Beteiligung;participation, involvement, engagement
+122;betonen;emphasize, stress, highlight
+123;die Betonung;emphasis, stress, highlight
+124;betrachten;consider, regard, view
+125;die Betrachtung;consideration, regard, view
+126;betreffen;concern, affect, pertain to
+127;der Betrag;amount, sum, quantity
+128;beurteilen;assess, evaluate, judge
+129;die Beurteilung;assessment, evaluation, judgment
+130;bevorzugen;prefer, favor, opt for
+131;die Bevorzugung;preference, favoritism, priority
+132;beweisen;prove, demonstrate, show
+133;der Beweis;proof, evidence, demonstration
+134;beziehen sich auf;refer to, relate to, pertain to
+135;die Beziehung;relationship, relation, connection
+136;bilden;form, create, make
+137;die Bildung;education, formation, creation
+138;biologisch;biological, organic, natural
+139;die Branche;industry, sector, trade
+140;brauchen;need, require, want
+141;die Bremse;brake, break, stop
+142;charakteristisch;characteristic, typical, distinctive
+143;der Charakter;character, personality, nature
+144;chemisch;chemical, chemical-related, chemistry-based
+145;die Chemie;chemistry, chemical science
+146;die Chance;chance, opportunity, possibility
+147;chancenlos;hopeless, futile, without chance
+148;der Chef;boss, manager, leader
+149;die Debatte;debate, discussion, argument
+150;debattieren;debate, discuss, argue
+151;definieren;define, specify, determine
+152;die Definition;definition, specification, determination
+153;demnach;accordingly, therefore, consequently
+154;demzufolge;consequently, therefore, as a result
+155;denken an;think of, consider, reflect on
+156;der Denkprozess;thinking process, cognitive process, thought process
+157;dennoch;nevertheless, however, still
+158;der Bereich;area, region, zone
+159;bereit;ready, prepared, available
+160;die Bereitschaft;willingness, readiness, preparedness
+161;berühmt;famous, well-known, renowned
+162;berücksichtigen;consider, take into account, regard
+163;der Bericht;report, account, information
+164;berühren;touch, contact, feel
+165;der Beruf;profession, occupation, job
+166;berufstätig;employed, working, in employment
+167;beschädigen;damage, harm, impair
+168;der Schaden;damage, harm, impairment
+169;beschleunigen;accelerate, speed up, hasten
+170;die Beschleunigung;acceleration, speeding up, hastening
+171;beschreiben;describe, depict, portray
+172;beschränken auf;limit to, restrict to, confine to
+173;beschweren,sich beschweren;complain, lament, grumble
+174;die Beschwerde;complaint, lament, grumble
+175;beständig;constant, stable, steady
+176;die Beständigkeit;stability, steadiness, consistency
+177;bestimmen;determine, decide, establish
+178;die Bestimmung;determination, decision, establishment
+179;bewahren;preserve, conserve, maintain
+180;die Bewahrung;preservation, conservation, maintenance
+181;bewerten;evaluate, assess, appraise
+182;die Bewertung;evaluation, assessment, appraisal
+183;bewirken;cause, effect, bring about
+184;bewusst;conscious, aware, intentional
+185;das Bewusstsein;awareness, consciousness, perception
+186;bezeichnen;designate, name, label
+187;die Bezeichnung;designation, name, label
+188;bieten;offer, provide, present
+189;der Blick;view, glance, sight
+190;blockieren;block, obstruct, hinder
+191;die Blockade;blockade, obstruction, barrier
+192;die Botschaft;message, communication, information
+193;breit;broad, wide, extensive
+194;die Breite;width, breadth, expanse
+195;durchführen;carry out, execute, perform
+196;die Durchführung;implementation, execution, performance
+197;durchsetzen;enforce, implement, carry through
+198;die Durchsetzung;enforcement, implementation, assertion
+199;durchschnittlich;average, mean, mid
+200;der Durchschnitt;average, mean, typical
+201;durchaus;absolutely, completely, entirely
+202;ebenfalls;likewise, also, too
+203;effektiv;effective, effectual, potent
+204;die Effektivität;effectiveness, effectuality, potency
+205;effizient;efficient, productive, effective
+206;die Effizienz;efficiency, productivity, effectiveness
+207;ehrlich;honest, truthful, sincere
+208;die Ehrlichkeit;honesty, truthfulness, sincerity
+209;eignen,sich eignen;be suitable, fit, be appropriate
+210;die Eignung;suitability, fitness, appropriateness
+211;einbeziehen;include, incorporate, involve
+212;der Einblick;insight, view, glimpse
+213;eindeutig;clear, unambiguous, definite
+214;die Eindeutigkeit;clarity, unambiguity, definiteness
+215;einfach;simple, easy, straightforward
+216;der Einfluss;influence, impact, effect
+217;einführen;introduce, implement, establish
+218;die Einführung;introduction, implementation, establishment
+219;eingehen auf;respond to, address, react to
+220;einhalten;comply with, observe, adhere to
+221;die Einhaltung;compliance, observance, adherence
+222;einheitlich;uniform, consistent, standardized
+223;die Einheit;unity, unit, oneness
+224;einkommen;income, earn, revenue
+225;das Einkommen;income, earnings, revenue
+226;einleiten;initiate, start, begin
+227;die Einleitung;introduction, initiation, start
+228;einnehmen;take in, ingest, consume
+229;die Einnahme;revenue, income, takings
+230;einschätzen;estimate, assess, evaluate
+231;die Einschätzung;assessment, estimation, evaluation
+232;einschränken;restrict, limit, curb
+233;die Einschränkung;restriction, limitation, curb
+234;einsetzen;deploy, use, employ
+235;der Einsatz;deployment, use, employment
+236;einstellen;hire, adjust, set
+237;die Einstellung;attitude, hiring, adjustment
+238;eintragen;enter, register, record
+239;der Eintrag;entry, registration, record
+240;einwandfrei;flawless, perfect, impeccable
+241;einwirken auf;have an effect on, affect, influence
+242;die Einwirkung;effect, impact, influence
+243;einzigartig;unique, one-of-a-kind, singular
+244;die Einzigartigkeit;uniqueness, one-of-a-kind quality, singularity
+245;empfehlen;recommend, suggest, advise
+246;die Empfehlung;recommendation, suggestion, advice
+247;empfinden;feel, perceive, sense
+248;die Empfindung;sensation, feeling, perception
+249;ermöglichen;enable, allow, make possible
+250;die Ermöglichung;enabling, allowing, making possible
+251;erfahren;experience, learn, find out
+252;die Erfahrung;experience, learning, knowledge
+253;erfolgen;occur, happen, take place
+254;der Erfolg;success, achievement, accomplishment
+255;erfolgreich;successful, accomplished, victorious
+256;erfordern;require, demand, necessitate
+257;die Erforderung;requirement, demand, necessity
+258;erfüllen;fulfill, accomplish, complete
+259;die Erfüllung;fulfillment, accomplishment, completion
+260;ergeben,ergeben sich;result, amount to, come to
+261;das Ergebnis;result, outcome, consequence
+262;erhalten;receive, get, obtain
+263;der Erhalt;preservation, maintenance, retention
+264;erheben;raise, lift, collect
+265;die Erhebung;survey, raising, collection
+266;erkennen;recognize, identify, perceive
+267;die Erkenntnis;insight, realization, understanding
+268;erklären;explain, clarify, interpret
+269;die Erklärung;explanation, clarification, interpretation
+270;erlauben;allow, permit, let
+271;die Erlaubnis;permission, permit, authorization
+272;erleben;experience, undergo, go through
+273;das Erlebnis;experience, event, occurrence
+274;ermitteln;determine, investigate, ascertain
+275;die Ermittlung;investigation, determination, ascertainment
+276;erreichen;achieve, reach, attain
+277;die Erreichung;achievement, reach, attainment
+278;erscheinen;appear, emerge, show up
+279;die Erscheinung;appearance, emergence, manifestation
+280;ersetzen;replace, substitute, displace
+281;der Ersatz;replacement, substitute, displacement
+282;erstellen;create, make, produce
+283;die Erstellung;creation, making, production
+284;ertragen;endure, bear, withstand
+285;der Ertrag;yield, return, harvest
+286;erwähnen;mention, note, refer to
+287;die Erwähnung;mention, note, reference
+288;erweitern;expand, extend, enlarge
+289;die Erweiterung;expansion, extension, enlargement
+290;erwerben;acquire, obtain, gain
+291;der Erwerb;acquisition, obtainment, gain
+292;erzeugen;generate, produce, create
+293;die Erzeugung;generation, production, creation
+294;erzielen;achieve, attain, obtain
+295;das Erzielen;achievement, attainment, obtainment
+296;essenziell;essential, fundamental, vital
+297;die Essenz;essence, core, heart
+298;etablieren;establish, set up, found
+299;die Etablierung;establishment, setting up, founding
+300;ethisch;ethical, moral, principled
+301;die Ethik;ethics, morality, principles
+302;fähig;capable, able, competent
+303;die Fähigkeit;ability, capability, competence
+304;fair;fair, just, equitable
+305;die Fairness;fairness, justice, equity
+306;fördern;promote, support, encourage
+307;die Förderung;promotion, support, encouragement
+308;fordern;demand, request, claim
+309;die Forderung;demand, request, claim
+310;fortsetzen;continue, proceed, resume
+311;die Fortsetzung;continuation, proceeding, resumption
+312;fortschreiten;progress, advance, move forward
+313;der Fortschritt;progress, advancement, development
+314;freisetzen;release, liberate, set free
+315;die Freisetzung;release, liberation, setting free
+316;funktionieren;function, work, operate
+317;die Funktion;function, working, operation
+318;garantieren;guarantee, assure, ensure
+319;die Garantie;guarantee, assurance, ensure
+320;gebrauchen;use, utilize, employ
+321;der Gebrauch;use, utilization, employment
+322;geeignet;suitable, appropriate, fit
+323;die Gelegenheit;opportunity, chance, occasion
+324;gegenwärtig;current, present, existing
+325;die Gegenwart;present, current time, now
+326;gelangen;reach, arrive, attain
+327;gelten;be valid, apply, hold true
+328;gemeinsam;common, together, shared
+329;die Gemeinschaft;community, society, group
+330;generell;general, overall, universal
+331;die Generation;generation, age group, cohort
+332;genügen;suffice, be enough, be sufficient
+333;genau;exact, precise, accurate
+334;die Genauigkeit;accuracy, precision, exactness
+335;geraten;get into, fall into, become
+336;gesamt;overall, total, complete
+337;die Gesamtheit;totality, whole, entirety
+338;gestalten;shape, design, form
+339;die Gestaltung;design, shaping, formation
+340;gewinnen;gain, win, obtain
+341;der Gewinn;profit, gain, win
+342;gewährleisten;ensure, guarantee, assure
+343;die Gewährleistung;guarantee, assurance, ensuring
+344;gewichten;weight, consider, evaluate
+345;das Gewicht;weight, importance, significance
+346;gewohnt;accustomed, used to, familiar with
+347;gleichzeitig;simultaneously, at the same time, concurrently
+348;die Gleichzeitigkeit;simultaneity, concurrence, coincidence
+349;gründen;found, establish, create
+350;die Gründung;foundation, establishment, creation
+351;grundsätzlich;fundamental, basic, essential
+352;der Grund;reason, cause, basis
+353;handeln;act, take action, behave
+354;die Handlung;action, act, deed
+355;herausfordern;challenge, confront, dare
+356;die Herausforderung;challenge, confrontation, dare
+357;herstellen;produce, manufacture, create
+358;die Herstellung;production, manufacturing, creation
+359;hervorheben;emphasize, highlight, stress
+360;hinsichtlich;regarding, concerning, with respect to
+361;hinterfragen;question, challenge, doubt
+362;die Hinterfragung;questioning, challenging, doubting
+363;hinweisen auf;point out, indicate, signal
+364;der Hinweis;indication, hint, clue
+365;identisch;identical, same, exact
+366;die Identität;identity, identification, sameness
+367;ignorieren;ignore, disregard, neglect
+368;die Ignoranz;ignorance, disregard, neglect
+369;implementieren;implement, execute, carry out
+370;die Implementierung;implementation, execution, carrying out
+371;individuell;individual, personal, unique
+372;die Individualität;individuality, personality, uniqueness
+373;informieren;inform, tell, notify
+374;die Information;information, news, data
+375;inhaltlich;content-related, substantive, in content
+376;der Inhalt;content, substance, subject matter
+377;innovativ;innovative, creative, inventive
+378;die Innovation;innovation, creativity, invention
+379;integrieren;integrate, incorporate, combine
+380;die Integration;integration, incorporation, combination
+381;intensiv;intensive, concentrated, focused
+382;die Intensität;intensity, concentration, focus
+383;interessieren,sich interessieren;be interested in, care about, be concerned with
+384;das Interesse;interest, concern, curiosity
+385;interpretieren;interpret, explain, understand
+386;die Interpretation;interpretation, explanation, understanding
+387;investieren;invest, sink money, put money
+388;die Investition;investment, commitment, sinking money
+389;irgendwie;somehow, in some way, one way or another
+390;jedoch;however, but, nevertheless
+391;kaum;hardly, scarcely, barely
+392;klären;clarify, clear up, explain
+393;die Klärung;clarification, clearing up, explanation
+394;komplex;complex, complicated, intricate
+395;die Komplexität;complexity, complication, intricacy
+396;konkret;concrete, specific, tangible
+397;die Konkurrenz;competition, competitor, rivalry
+398;konsequent;consistent, logical, consequential
+399;die Konsequenz;consequence, result, aftermath
+400;kontinuierlich;continuous, constant, uninterrupted
